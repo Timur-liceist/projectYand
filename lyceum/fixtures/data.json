@@ -1,0 +1,143 @@
+[
+{
+    "model": "catalog.tag",
+    "pk": 1,
+    "fields": {
+        "is_published": true,
+        "name": "Tag1",
+        "slug": "This_is_the_Tag1",
+        "norm_name": "tag1"
+    }
+},
+{
+    "model": "catalog.tag",
+    "pk": 2,
+    "fields": {
+        "is_published": true,
+        "name": "Tag2",
+        "slug": "This_is_the_Tag2",
+        "norm_name": "tag2"
+    }
+},
+{
+    "model": "catalog.tag",
+    "pk": 3,
+    "fields": {
+        "is_published": true,
+        "name": "Tag3",
+        "slug": "This_is_the_Tag3",
+        "norm_name": "tag3"
+    }
+},
+{
+    "model": "catalog.tag",
+    "pk": 4,
+    "fields": {
+        "is_published": true,
+        "name": "Tag4",
+        "slug": "This_is_the_Tag4",
+        "norm_name": "tag4"
+    }
+},
+{
+    "model": "catalog.tag",
+    "pk": 5,
+    "fields": {
+        "is_published": true,
+        "name": "Tag5",
+        "slug": "This_is_the_Tag5",
+        "norm_name": "tag5"
+    }
+},
+{
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+        "is_published": true,
+        "name": "Category1",
+        "slug": "This_is_the_Category1",
+        "weight": 5,
+        "norm_name": "category1"
+    }
+},
+{
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+        "is_published": true,
+        "name": "Category2",
+        "slug": "This_is_the_Category2",
+        "weight": 10,
+        "norm_name": "category2"
+    }
+},
+{
+    "model": "catalog.item",
+    "pk": 1,
+    "fields": {
+        "is_published": true,
+        "name": "Item1",
+        "category": 2,
+        "text": "This is the Item1 превосходно",
+        "tags": []
+    }
+},
+{
+    "model": "catalog.item",
+    "pk": 2,
+    "fields": {
+        "is_published": true,
+        "name": "Item2",
+        "category": 1,
+        "text": "This is the Item2 превосходно",
+        "tags": []
+    }
+},
+{
+    "model": "catalog.item",
+    "pk": 3,
+    "fields": {
+        "is_published": true,
+        "name": "Item3",
+        "category": 1,
+        "text": "This is the Item3 превосходно",
+        "tags": []
+    }
+},
+{
+    "model": "catalog.item",
+    "pk": 4,
+    "fields": {
+        "is_published": true,
+        "name": "Item4",
+        "category": 2,
+        "text": "This is the Item4 превосходно",
+        "tags": []
+    }
+},
+{
+    "model": "catalog.item",
+    "pk": 5,
+    "fields": {
+        "is_published": true,
+        "name": "Item5",
+        "category": 1,
+        "text": "This is the Item5 превосходно",
+        "tags": []
+    }
+},
+{
+    "model": "catalog.item",
+    "pk": 10,
+    "fields": {
+        "is_published": true,
+        "name": "Timka",
+        "category": 1,
+        "text": "роскошно",
+        "tags": [
+            3,
+            4
+        ]
+    }
+}
+]

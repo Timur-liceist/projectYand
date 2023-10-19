@@ -1,0 +1,5 @@
+pep8-naming
+flake8-import-order
+flake8-quotes
+django-debug-toolbar==4.2.0
+transliterate==1.10.2
