@@ -16,6 +16,7 @@ black_check:
 
 pytest:
   stage: linting
+  image: python:3.10
   script:
     - pip install django-debug-toolbar
     - pip install -r requirements/dev.txt
